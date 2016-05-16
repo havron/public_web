@@ -11,6 +11,7 @@
   ga('send', 'pageview');
 
 </script>
+
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 
@@ -20,8 +21,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../favicon.ico">
-
+    <link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="favicon.ico">
     <title>Samuel Havron</title>
 
     
@@ -38,7 +39,9 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -58,16 +61,16 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="../index.html">Samuel Havron</a>
+          <a class="navbar-brand" href="index.html">Samuel Havron</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="../index.html">Home</a></li>
             <li><a href="../about.html">About Me</a></li>
             <li><a href="../teaching.html">Teaching</a></li>
-            <li class="active"><a href="index.html">Research</a></li>
+            <li><a href="../research/index.html">Research</a></li>
             <li><a href="../courses.html">Courses</a></li>
-            <li><a href="../fun/index.html">Fun</a></li>
+            <li class="active"><a href="index.html">Fun</a></li>
               </ul>
             </li>
           </ul>
@@ -77,32 +80,31 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <div class="container theme-showcase" role="main">
 
-<div class="page-header">
- <h1>Research</h1>
-</div>
-<p>I am currently working as an undergraduate researcher advised by <a href="http://www.virginia.edu" target="_blank">UVA</a> <a href="http://www.cs.virginia.edu" target="_blank">Computer Science</a> Professor <a href="http://www.cs.virginia.edu/~evans/" target="_blank">David Evans</a> in the university's <a href="http://www.jeffersonswheel.org" target="_blank">computer security research group</a>.
-My main research interests are in computer security and privacy problems, though I am also intrigued by areas in programming languages, human-computer interaction, and computer graphics.
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+
+
+<br>
+<br>
+<p> 
+here are some songs that I enjoy. if you would like to download them, i have made the playlist available on Spotify here.
+
+alternatively, you can run the following commands to get and listen to a local playlist of the files:
+<br>
+<tt>
+wget -r -nH -nd -np http://havron.xyz/fun/music
+<br>
+cd fun/music
+<br>
+readlink -f *.mp3 &gt; myplaylistname.m3u
+<br>
+xdg-open myplaylistname.m3u
+</tt>
+<br>
+<br>
+replace <tt>xdg-open</tt> with <tt>open</tt> on Mac OS X.
 </p>
-
-
-
-<h2>Publications</h2>
-<ul>
-<li>Samuel Havron: <a href="mpc_poster.pdf" target="_blank">Poster: Secure Multi-Party Computation as a Tool for Privacy-Preserving Data Analysis.</a> <i>37<sup>th</sup> IEEE Symposium on Security and Privacy ("Oakland"). San Jose, CA. 23-25 May 2016.</i> [<a href="mpc_poster.pdf" target="_blank">PDF</a>]</li>
-
-<li>Samuel Havron: <a href="http://www.cs.virginia.edu/~evans/docs/Spectra_2016_Havron.pdf" target="_blank">Research Highlight on Privacy-Preserving Regression and Obliv-C Language.</a> <i>The Spectra: The Virginia Engineering and Science Research Journal &#8550; </i>(Spring 2016 Issue). [<a href="http://www.cs.virginia.edu/~evans/docs/Spectra_2016_Havron.pdf" target="_blank">PDF</a>]</li>
-</ul>
-<h2>Conferences</h2>
-<ul>
-	<li>Attendee and Poster Presenter. <a href="http://www.ieee-security.org/TC/SP2016/" target="_blank">37<sup>th</sup> IEEE Symposium on Security and Privacy ("Oakland"). May 23-25, 2016, at the Fairmont, San Jose, CA</a></li>
-
-<li>Judge, H.S. Psychology Papers.
-<a href="http://www.vjas.org/2016-symposium.html" target="_blank">Virginia Junior Academy of Science Annual Research Symposium (VJAS). May 17-19, 2016, at the University of Mary Washington, Fredericksburg, VA</a>
-</li>
-</ul>
-<br> <br>
-<img align="center" src="../images/park.jpg" height="50%" width="50%">
-
+      </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
