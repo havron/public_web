@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+<meta  http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -11,7 +13,6 @@
   ga('send', 'pageview');
 
 </script>
-
 <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
 
@@ -21,8 +22,6 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    
-   <!--  <link rel="icon" href="favicon.ico"> -->
     <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png?v=lkkyB2R0jO">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png?v=lkkyB2R0jO">
     <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png?v=lkkyB2R0jO">
@@ -43,6 +42,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
     <meta name="msapplication-TileColor" content="#000000">
     <meta name="msapplication-TileImage" content="mstile-144x144.png?v=lkkyB2R0jO">
     <meta name="theme-color" content="#ffffff">
+
     <title>Samuel Havron</title>
 
     
@@ -59,9 +59,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="https://use.fontawesome.com/75f1a4ba89.js"></script>
     <script src="assets/js/ie-emulation-modes-warning.js"></script>
-
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -72,7 +71,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
   <body role="document">
 
     <!-- Fixed navbar -->
-    <nav id="navbar-black" class="navbar navbar-inverse navbar-fixed-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -88,9 +87,9 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
+            <li class="active"><a href="teaching.html">Teaching</a></li>
             <li><a href="research/index.html">Research</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="fun/index.html">Fun</a></li>
@@ -103,25 +102,66 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <div class="container theme-showcase" role="main">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-<td align="top">
-<tr>
-<img src="images/backpack.jpg" alt="profile picture" height="32%" width="32%" align="center"> 
-<img src="images/hspc.jpg" alt="profile picture" height="50%" width="50%" align="center"> </tr>
-</td>
+<div class="page-header">
+ <h1>Teaching</h1>
+</div>
+
+<a href="pavilionX/index.html" target="_blank"><img height="50%" width="50%" src="pavilionX/raw/pl-outside2.jpg"></a>
+<!-- 275 by 275 img -->
+&nbsp;
+<img src="images/writing.jpg" height="38%" width="38%">
+<!-- <img style="float:right; margin: 0px 0px 5px 5px" src="images/writing.jpg" height="45%" width="45%"> -->
+<h2>Courses served as Teaching Assistant (TA)</h2>
+<p style="font-size:18px">
+As an undergraduate student, I have TA'd the following courses:
+<div style="font-size:18px">
+<ul>
+<i class="fa fa-university" aria-hidden="true"> CS/ECE 2330: Digital Logic Design (3 semesters: Fall 2015, Spring 2016, Fall 2016)
+</i>
+<i class="fa fa-university" aria-hidden="true"> CS 2150: Program and Data Representation (2 semesters: Spring 2016, Fall 2016)
+</i>
+</ul>
+
+The majority of my time spent on each course is dedicated to answering student questions during office hours and through an <a href="https://piazza.com" target="_blank">online Q&amp;A forum</a>, as well as holding weekly review sessions for students. I occasionally grade quizzes and exams.
+
+I have had the honor of being dubbed "<i>the corniest person I have ever met</i>" by one of my students, in response to my hobby of offering course-material-related humor during review sessions.
+
+</div>
+
+ </p>
+
+<br>
+<h2>Advising and Judging</h2>
+<p style="font-size:18px">
+I currently serve as a Resident Advisor for first-year students under the
+<a href="http://www.virginia.edu/housing/" target="_blank">Housing &amp; Residence Life</a> office at the 
+<a href="http://www.virginia.edu" target="_blank">University of Virginia</a>.
+
+I have served in the following associations:
+
+<div style="font-size:18px">
+<ul>
+<li>Woody-Cauthen Association (2015-2016 Academic Year)</li>
+<li>Woody-Cauthen Association, Redux! (2016-2017 Academic Year)</li>
+</ul>
+
+<!-- To my current residents: you can access our hall website here (Collab site link). -->
+
+<br>
+I am a judge for <a href="http://acm.cs.virginia.edu/index.php" target="_blank">ACM@UVA</a>'s
+annual <a href="http://acm.cs.virginia.edu/hspc.php" target="_blank">High School Programming Contest (HSPC)</a>, the largest HSPC in the mid-Atlantic region, and one of the largest in the United States.
+I have also served as a judge for high school psychology research papers in the <a href="http://www.vjas.org/2016-symposium.html" target="_blank">Virginia Junior Academy of Science's Annual Research Symposium</a>.
 
 
 <br>
 <br>
-<p> Hello there, I'm Sam Havron! I'm an undergraduate computer science student and proud member of the 
-<a href="http://www.cavaliermarchingband.com" target="_blank">Cavalier Marching Band</a>.
-Feel free to browse around the site and <a href="about.html">get in touch with me</a>!
+I am the computing majors committee chair for <a href="https://atuva.student.virginia.edu/organization/daedalusproject/about" target="_blank">DAEDALUS@UVA</a>, a project which hosts interactive seminars on the fundamental ideas of each major offered within <a href="http://seas.virginia.edu/" target="_blank">SEAS</a>. 
+It is intended for first year engineering students who are interested in learning more about the different majors offered at UVA, and is integrated into the curriculum of the <a href="http://rabi.phys.virginia.edu/mySIS/CC2/ENGR.html" target="_blank">Introduction to Engineering (ENGR 1620)</a> course.
+
 <br>
-</p>
-  <img src="images/mylogo.png" alt="havron logo" height="62%" width="62%" align="center">
-<div align="right"><font size="1"><a href="credits.html">credits for site images</a> | <a href="http://people.virginia.edu/~sgh7cc" target="_blank">site mirror</a> | <a href="privacy.html">site privacy policy</a></font></div>
-      </div>
+<br>
+More to be added...stay tuned!</p>
+
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
