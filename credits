@@ -90,7 +90,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
         <h1>Credits for Site Images (hyperlinked)</h1>
-<p> &copy; and &reg; where applicable. Please <a href="mailto:sgh7cc@virginia.edu">contact me</a> if you would like your content to be removed from the site. </p>
+<p> &copy; and &reg; where applicable. Please <a href="about.html">contact me</a> if you would like your content to be removed from the site. </p>
        <ul>
 <li><a href="http://undertale.wikia.com/wiki/Annoying_Dog" target="_blank"><img src="images/dog.gif">undertale wikia</a></li>
 <li><a href="http://drhorrible.com/" target="_blank"><img src="images/drhorrible.jpg" height="207" width="336">Dr. Horrible</a></li>
