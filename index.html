@@ -7,11 +7,20 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="msvalidate.01" content="8EEDB1EE4F4B1877A03F249C5F4E2CCB"/>    
+    <link rel="canonical" href="https://havron.xyz/index.html" />
+    <meta name="description" content="A 20-something Virginia resident's attempts at producing relevant quips, blogging, and xyz. Check out the site!">
+    <meta name="author" content="Sam Havron UVA Computer Science">
+    <meta name="msvalidate.01" content="8EEDB1EE4F4B1877A03F249C5F4E2CCB">    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@samhavron" />
+    <meta name="twitter:title" content="Check out Sam's home on the web!" />
+    <meta name="twitter:description" content="A 20-something Virginia resident's attempts at producing relevant quips, blogging, and xyz." />
+    <meta name="twitter:image" content="https://havron.xyz/images/mylogo.png" />
+    <meta name="twitter:image:alt" content="Sam's logo: a black circle with a blue 's' and orange 'h' in the center" />
+
+
    <!--  <link rel="icon" href="favicon.ico"> -->
     <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png?v=lkkyB2R0jO">
     <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png?v=lkkyB2R0jO">
@@ -38,14 +47,11 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
     
     <!-- Bootstrap core CSS -->
      <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap theme -->
-    <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
-
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="theme.css" rel="stylesheet">
+    <style>body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
 
 
 
@@ -59,7 +65,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
   <body role="document">
 
     <!-- Fixed navbar -->
-    <nav id="navbar-black" class="navbar navbar-inverse navbar-fixed-top">
+   <nav id="navbar-black" class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -68,22 +74,21 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img 
-                    style="
-                    max-width:65px; margin-top: -15px;" 
-                    src="images/mylogo.png"></a>
+          <a class="navbar-brand" href="index.html"><img style="max-width:65px; margin-top: -15px" src="images/mylogo.png"></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="research/index.html">Research</a></li>
-            <li><a href="courses.html">Courses</a></li>
-            <li><a href="fun/index.html">Fun</a></li>
+            <li class="active"><a href="/index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./teaching.html">Teaching</a></li>
+            <li><a href="./research/index.html">Research</a></li>
+            <li><a href="./courses.html">Courses</a></li>
+            <li><a href="./fun/index.html">Fun</a></li>
+            <li><a href="./blog/index.html">Blog <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+<span class="label label-pill label-warning">New! July 2016</span></a></li>
               </ul>
-            </li>
-          </ul>
+            
+          
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -94,19 +99,27 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
       <div class="jumbotron">
 <td align="top">
 <tr>
-<img src="imgopt/backpack.jpg" alt="profile picture" height="32%" width="32%" align="center"> 
-<img src="imgopt/hspc.jpg" alt="profile picture" height="50%" width="50%" align="center"> </tr>
+<img src="./images/newprof.jpg" alt="profile picture" height="25%" width="25%" align="center"> 
+<img src="./imgopt/hspc.jpg" alt="profile picture" height="50%" width="50%" align="center"> </tr>
 </td>
 
 
 <br>
 <br>
-<p> Hello there, I'm Sam Havron! I'm an undergraduate computer science student and proud member of the 
-<a href="http://www.cavaliermarchingband.com" target="_blank">Cavalier Marching Band</a>.
-Feel free to browse around the site and <a href="about.html">get in touch with me</a>!
+<p> 
+
+Hello there, I'm Sam Havron! I'm an undergraduate computer science student and
+proud <a href="http://www.virginia.edu/housing/programs.php?id=ra"
+target="_blank">Resident Advisor</a> of 22 first-year students at the <a href="http://www.virginia.edu" target="_blank">University of Virginia</a>.  Feel free to
+browse around the site and <a href="about.html">get in touch with me</a>!
+Check out <a href="./blog/">the new blog</a>, statically compiled with <a
+href="https://gohugo.io" target="_blank">Hugo</a>.
+
+<br><br>
+<a style="color:orange" href="./webstats.html"><i>Site details and security discussion f0r 633k5 <span class="glyphicon glyphicon-flash" aria-hidden="true"></span></i></a>
 <br>
 </p>
-  <img src="images/mylogo.png" alt="havron logo" height="62%" width="62%" align="center">
+  <img src="images/mylogo.png" alt="havron logo" height="45%" width="45%" align="center">
 <div align="right"><font size="1"><a href="credits">credits for site images</a> | <a href="privacy">site privacy policy</a></font></div>
       </div>
     <!-- Bootstrap core JavaScript
@@ -118,6 +131,6 @@ Feel free to browse around the site and <a href="about.html">get in touch with m
     <script src="dist/js/bootstrap.min.js"></script>
     <script src="assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+<script async>(function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var a=document.createElement("style");a.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));document.querySelector("head").appendChild(a)}})();</script>
+  </div></body>
 </html>

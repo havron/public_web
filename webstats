@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <link rel="canonical" href="https://havron.xyz/webstats.html" />
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="msvalidate.01" content="8EEDB1EE4F4B1877A03F249C5F4E2CCB">    
+   <!--  <link rel="icon" href="favicon.ico"> -->
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png?v=lkkyB2R0jO">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png?v=lkkyB2R0jO">
+    <link rel="icon" type="image/png" href="favicon-32x32.png?v=lkkyB2R0jO" sizes="32x32">
+    <link rel="icon" type="image/png" href="android-chrome-192x192.png?v=lkkyB2R0jO" sizes="192x192">
+    <link rel="icon" type="image/png" href="favicon-96x96.png?v=lkkyB2R0jO" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-16x16.png?v=lkkyB2R0jO" sizes="16x16">
+    <link rel="manifest" href="manifest.json?v=lkkyB2R0jO">
+    <link rel="shortcut icon" href="favicon.ico?v=lkkyB2R0jO">
+    <meta name="apple-mobile-web-app-title" content="havron">
+    <meta name="application-name" content="havron">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="mstile-144x144.png?v=lkkyB2R0jO">
+    <meta name="theme-color" content="#ffffff">
+    <title>Samuel Havron</title>
+
+    
+    <!-- Bootstrap core CSS -->
+     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
+
+
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav id="navbar-black" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img style="max-width:65px; margin-top: -15px" src="images/mylogo.png"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="research/index.html">Research</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="fun/index.html">Fun</a></li>
+              </ul>
+            
+          
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+<p> 
+<h1>Magic used to deliver 'havron.xyz'</h1>
+
+This site is developed and maintained by <a
+href="https://havron.xyz/about.html" target="_blank">myself</a>, and utilizes a
+number of recent web tools and standards to operate. The majority of my knowledge of
+web development is self-taught, though I am taking <a
+href="https://havron.xyz/courses.html#isa" target="_blank">a course on building
+scalable, industrial-grade 4-tier web applications</a> during fall 2016. I'm
+always looking to improve the site or add new content! Feel free to contact me or submit a
+<a href="https://github.com/samuelhavron/public_web" target="_blank">pull
+request</a>.
+
+<br>
+<h2>Dev tools and infrastructure</h2>
+Most of the site development is done with the help of <a href="http://www.vim.org" target="_blank">Vim</a> and <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> (with the use of many <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a> 
+<a href="https://duckduckgo.com/bang" target="_blank">bangs!</a>).
+Deployment is handled with an <a href="https://aws.amazon.com/cloudfront/" target="_blank">AWS Cloudfront CDN</a> and <a href="https://aws.amazon.com/s3/" target="_blank">S3 origin</a>; <a href="https://aws.amazon.com/route53/" target="_blank">Route 53</a> takes care of the 'havron.xyz' domain, and <a href="https://aws.amazon.com/certificate-manager/" target="_blank">AWS ACM</a> serves as the Certificate Authority (CA) for the site's TLS certificate and HTTPS connection. Styling is based on Twitter bootstrap (specifically, 
+the <a href="https://bootswatch.com/cyborg/" target="_blank">Cyborg theme on Bootswatch</a>).
+Lastly, <a href="https://git-scm.com/" target="_blank">version control with git</a> is used and publicly available in a <a href="https://github.com/samuelhavron/public_web/" target="_blank">GitHub repository</a> (the site's S3 bucket is synchronized with the repository via a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks" target="_blank">client-side hook</a>).
+
+
+<h2>Site blog</h2> 
+<i id="reddit"></i>
+
+The blog is developed using <a href="https://gohugo.io/"
+target="_blank">Hugo</a> to generate static content. It's
+currently housed in the <a href="./blog/">/blog subdirectory</a> of the site, but could
+migrate to its own subdomain or entirely separate domain if it ever becomes big
+enough to invite multiple contributors whom would need access to a shared,
+distinct blog environment. AWS offers the granularity to control S3 and
+Cloudfront resources at the directory level, which could certainly come in handy in the aforementioned scenario.
+<br> <br>
+The blog's commenting system is currently <a href="https://reddit.com/r/havronxyz/"
+target="_blank">housed on reddit</a>, whom handles all of the dynamic needs of blog
+comments. Each reddit post corresponds to a blog post, and is embedded in JavaScript at the bottom of the relevant blog post. I may turn
+to implementing my own commenting system in the future, but will stick with reddit
+for now. I am open to suggestions for a system that you (the reader) would prefer to use; 
+fill out <a href="http://goo.gl/forms/YrwfcdDMdTK4RifY2" target="_blank">this form</a>!
+The blog's theme is based on <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>.
+
+<h2>Security</h2> 
+The site is static, which is a great start towards ensuring it is safe and secure for viewers to browse. As a quick <samp
+style="color:green">curl -I</samp> HTTP-header request can reveal, The site
+relies on a 301 redirect from an initial HTTP request to HTTPS connection (which <a href="https://www.cs.columbia.edu/~angelos/Papers/2016/cookiejar.pdf" target="_blank">invites some flaws</a>),
+enforced by the Cloudfront distribution that serves the site's objects from an
+S3 bucket with match viewer protocol policy (so, Cloudfront will establish an
+HTTPS connection to the S3 bucket and serve content via HTTPS to the viewer).
+I would rather have <a href="https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security" target="_blank">HSTS (HTTP Strict Transport Security)</a> headers and an
+HTTPS-only connecton enforced (cf. <a
+href="https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-zheng-updated.pdf"
+target="_blank">cookie integrity problems</a>), but HSTS headers are currently
+<a href="https://forums.aws.amazon.com/message.jspa?messageID=727877#727877"
+target="_blank">ignored in AWS S3 buckets</a> and in <a
+href="https://forums.aws.amazon.com/message.jspa?messageID=725872#725872"
+target="_blank">AWS Cloudfront</a>, both as of June 2016; the site's only
+cookies are for a Google Analytics script, which could potentially be poisoned
+by a MITM (Man in the Middle) attack during the initial HTTP request to the
+Cloudfront distribution. Also as a result of using Amazon Certificate Manager
+as a CA, <a href="https://en.wikipedia.org/wiki/Forward_secrecy" target="_blank">Perfect Forward Secrecy (PFS)</a> is not supported, which isn't much of a concern for a static site, but is still on my mind. 
+
+<h2>Search Engine Optimization (SEO)</h2>
+While I profess that <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank">SEO</a> is not at the top of my priority list for the site, 
+I have had quite a bit of interest in learning more about the algorithms behind popular search engines; what better way to learn than 
+to experiment with my own site?
+I haven't yet taken a stance on using absolute URLs (supposedly better for SEO) over relative URLs (to me, much more intuitive and efficient for development).
+More on this section to be added.
+
+<h2 style="color:orange">Current goals for the site</h2> 
+As always, I welcome suggestions and <a href="https://github.com/samuelhavron/public_web" target="_blank">pull requests</a>! 
+I have been fortunate enough to find ample time to work on this site during the summer of 2016 -- I anticipate I will lose this luxury once the fall 2016 semester begins.
+
+Without further ado, here are some goals (long- and short-term) for the site's development, in no particular order and in no short breath (it sure helps me to keep this list around for reference!):
+<br> <br>
+<ul>
+
+<li>Do something clever with <a href="https://www.reddit.com/dev/api/"
+target="_blank">reddit API</a> and Hugo tools to automate reddit <a
+href="https://www.reddit.com/dev/api/#POST_api_submit" target="_blank">link
+creation</a> and embedding for each blog post with loading <a
+href="https://gohugo.io/extras/datafiles/" target="_blank">data file</a>
+variables into <a href="https://gohugo.io/templates/partials/"
+target="_blank">layout partials</a> (probably the coolest side-project for the
+site I have in mind). To do this, I plan on writing a script (bash or python)
+to grab the embed HTML code from the handy JSON generated at the <a
+href="https://github.com/reddit/reddit/wiki/oEmbed" target="_blank">oEmbed</a>
+endpoint for a given reddit post URL (which itself will be auto-submitted with
+reddit API based on blog post titles). I may be able to fully integrate the
+process with Hugo's own tools and forego scripting, or I'll just add a script
+execution line to the <tt>html</tt> target in the <a
+href="https://github.com/samuelhavron/blog/blob/master/Makefile"
+target="_blank">Makefile</a>. Once all is done and stable, I may submit a PR to Hugo to add my automated reddit commenting system for blogs (with documentation and examples). 
+
+The current way I am embedding reddit posts is by manually submitting a new reddit link to the blog post in the <a href="https://reddit.com/r/havronxyz/" target="_blank">/r/havronxyz</a> subreddit, then using a handy <a href="https://gohugo.io/extras/shortcodes/" target="_blank">shortcode</a> I created
+to embed reddit posts and templating...it's quite sad :(</li>
+
+<li>Improve mobile and desktop speeds as reported from <a href="https://testmysite.thinkwithgoogle.com/" target="_blank">Google's PageSpeed Insights</a>.
+<li>Validate all HTML content with <a href="http://validator.w3.org/check?uri=https://havron.xyz" target="_blank"><img
+            src="./images/W3C_HTML5_certified-small.png" class="plain"
+                        alt="Valid HTML 5" height="31" width="88" /></a></li>
+
+<li>Validate all CSS content with <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fhavron.xyz&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en" target="_blank">
+            <img style="border:0;width:88px;height:31px"
+                        src="./images/vcss.gif" alt="Valid CSS!" /></a></li>
+
+<li>Deploy HSTS (HTTP Strict Transport Security) <a href="https://forums.aws.amazon.com/message.jspa?messageID=725872#725872" target="_blank">as soon as AWS supports the feature</a> for Cloudfront distributions and/or S3 buckets (and enforce HTTPS-only connections after deploying HSTS, rather than using 301 redirects). <i>Yes, all of this trouble for a static site!</i></li>
+<li>Re-examine handling of <a href="https://en.wikipedia.org/wiki/Semantic_URL" target="_blank">clean (semantic) URLs</a>, which are currently (admittedly badly) handled by duplicating content and using meta HTTP-equiv tags for clean S3 objects</li>
+<li>Consider exploring seasonal/holiday styling/themes for the site, and establish a rotation schedule</li>
+
+<li>Consider open-source alternatives to the (outsourced) reddit commenting system used for the blog</li>
+
+<li>Consider updating the site logo to something more interesting</li>
+<li>Implement dynamic search on the Hugo blog via <a href="https://gist.github.com/sebz/efddfc8fdcb6b480f567" target="_blank">Gruntjs (buildtime, JSON generator) and Lunrjs (runtime)</a> (though, the current system of tags and categories seems to be working very well as a means to search for posts).
+
+<li>Customize the blog even more...mess with templating, themes, taxonomies! The current taxonomy system is fairly simple (categories, tags).</li>
+
+</ul>
+
+
+
+</p>
+<!-- magic, wow! what time is it, sed? :-) -->
+<i>This page was last updated on Tuesday, 5 July 2016 at 08:50:49 AM</i>
+<a href="./Makefile" target="_blank">.</a>
+</div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script async>!function(e,t,a,n,c,o,s){e.GoogleAnalyticsObject=c,e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new Date,o=t.createElement(a),s=t.getElementsByTagName(a)[0],o.async=1,o.src=n,s.parentNode.insertBefore(o,s)}(window,document,"script","https://www.google-analytics.com/analytics.js","ga"),ga("create","UA-77126138-1","auto"),ga("send","pageview");</script>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script async>(function(){if(navigator.userAgent.match(/IEMobile\/10\.0/)){var a=document.createElement("style");a.appendChild(document.createTextNode("@-ms-viewport{width:auto!important}"));document.querySelector("head").appendChild(a)}})();</script>
+  </div></body>
+</html>
