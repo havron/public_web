@@ -91,7 +91,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
 <p> 
-<h1>Magic used to deliver 'havron.xyz'</h1>
+<h1><span class="glyphicon glyphicon-flash"></span> Magic used to deliver 'havron.xyz'</h1>
 
 This site is developed and maintained by <a
 href="https://havron.xyz/about.html" target="_blank">myself</a>, and utilizes a
@@ -104,7 +104,7 @@ always looking to improve the site or add new content! Feel free to contact me o
 request</a>.
 
 <br>
-<h2>Dev tools and infrastructure</h2>
+<h2 style="color:blue">Dev tools and infrastructure <span class="glyphicon glyphicon-wrench"></span></h2>
 Most of the site development is done with the help of <a href="http://www.vim.org" target="_blank">Vim</a> and <a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a> (with the use of many <a href="https://duckduckgo.com/" target="_blank">DuckDuckGo</a> 
 <a href="https://duckduckgo.com/bang" target="_blank">bangs!</a>).
 Deployment is handled with an <a href="https://aws.amazon.com/cloudfront/" target="_blank">AWS Cloudfront CDN</a> and <a href="https://aws.amazon.com/s3/" target="_blank">S3 origin</a>; <a href="https://aws.amazon.com/route53/" target="_blank">Route 53</a> takes care of the 'havron.xyz' domain, and <a href="https://aws.amazon.com/certificate-manager/" target="_blank">AWS ACM</a> serves as the Certificate Authority (CA) for the site's TLS certificate and HTTPS connection. Styling is based on Twitter bootstrap (specifically, 
@@ -112,7 +112,7 @@ the <a href="https://bootswatch.com/cyborg/" target="_blank">Cyborg theme on Boo
 Lastly, <a href="https://git-scm.com/" target="_blank">version control with git</a> is used and publicly available in a <a href="https://github.com/samuelhavron/public_web/" target="_blank">GitHub repository</a> (the site's S3 bucket is synchronized with the repository via a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks" target="_blank">client-side hook</a>).
 
 
-<h2>Site blog</h2> 
+<h2 style="color:blue">Site blog <span class="glyphicon glyphicon-pencil"></span></h2> 
 <i id="reddit"></i>
 
 The blog is developed using <a href="https://gohugo.io/"
@@ -131,7 +131,7 @@ for now. I am open to suggestions for a system that you (the reader) would prefe
 fill out <a href="http://goo.gl/forms/YrwfcdDMdTK4RifY2" target="_blank">this form</a>!
 The blog's theme is based on <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>.
 
-<h2>Security</h2> 
+<h2 style="color:blue">Security <span class="glyphicon glyphicon-lock"></span></h2> 
 The site is static, which is a great start towards ensuring it is safe and secure for viewers to browse. As a quick <samp
 style="color:green">curl -I</samp> HTTP-header request can reveal, The site
 relies on a 301 redirect from an initial HTTP request to HTTPS connection (which <a href="https://www.cs.columbia.edu/~angelos/Papers/2016/cookiejar.pdf" target="_blank">invites some flaws</a>),
@@ -151,14 +151,14 @@ by a MITM (Man in the Middle) attack during the initial HTTP request to the
 Cloudfront distribution. Also as a result of using Amazon Certificate Manager
 as a CA, <a href="https://en.wikipedia.org/wiki/Forward_secrecy" target="_blank">Perfect Forward Secrecy (PFS)</a> is not supported, which isn't much of a concern for a static site, but is still on my mind. 
 
-<h2>Search Engine Optimization (SEO)</h2>
+<h2 style="color:blue">Search Engine Optimization (SEO) <span class="glyphicon glyphicon-search"></span></h2>
 While I profess that <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank">SEO</a> is not at the top of my priority list for the site, 
 I have had quite a bit of interest in learning more about the algorithms behind popular search engines; what better way to learn than 
 to experiment with my own site?
 I haven't yet taken a stance on using absolute URLs (supposedly better for SEO) over relative URLs (to me, much more intuitive and efficient for development).
 More on this section to be added.
 
-<h2 style="color:orange">Current goals for the site</h2> 
+<h2 style="color:orange">Current goals for the site <span class="glyphicon glyphicon-check"></span></h2> 
 As always, I welcome suggestions and <a href="https://github.com/samuelhavron/public_web" target="_blank">pull requests</a>! 
 I have been fortunate enough to find ample time to work on this site during the summer of 2016 -- I anticipate I will lose this luxury once the fall 2016 semester begins.
 
@@ -183,8 +183,8 @@ execution line to the <tt>html</tt> target in the <a
 href="https://github.com/samuelhavron/blog/blob/master/Makefile"
 target="_blank">Makefile</a>. Once all is done and stable, I may submit a PR to Hugo to add my automated reddit commenting system for blogs (with documentation and examples). 
 
-The current way I am embedding reddit posts is by manually submitting a new reddit link to the blog post in the <a href="https://reddit.com/r/havronxyz/" target="_blank">/r/havronxyz</a> subreddit, then using a handy <a href="https://gohugo.io/extras/shortcodes/" target="_blank">shortcode</a> I created
-to embed reddit posts and templating...it's quite sad :(</li>
+The current way I am embedding reddit posts is by manually submitting a new reddit link to the blog post in the <a href="https://reddit.com/r/havronxyz/" target="_blank">/r/havronxyz</a> subreddit, then using a handy <a href="https://github.com/samuelhavron/blog/blob/master/layouts/partials/reddit.html" target="_blank">partial</a> I created
+to embed reddit posts and templating by passing in the values to the <a href="http://gohugo.io/content/front-matter" target="_blank">TOML frontmatter</a> for each blog post...it's not bad, but could be better automated.</li>
 
 <li>Improve mobile and desktop speeds as reported from <a href="https://testmysite.thinkwithgoogle.com/" target="_blank">Google's PageSpeed Insights</a>.
 <li>Validate all HTML content with <a href="http://validator.w3.org/check?uri=https://havron.xyz" target="_blank"><img
@@ -212,7 +212,7 @@ to embed reddit posts and templating...it's quite sad :(</li>
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Tuesday, 5 July 2016 at 08:50:49 AM</i>
+<i>This page was last updated on Tuesday, 5 July 2016 at 08:25:14 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
