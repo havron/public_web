@@ -206,13 +206,14 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 
 <li>Customize the blog even more...mess with templating, themes, taxonomies! The current taxonomy system is fairly simple (categories, tags).</li>
 
+<li>Add RSS/Atom feeds to the blog and make them easily accessible. This shouldn't be very difficult, as Hugo can already do most of the heavy lifting. Consider other formats for distributing content.</li>
 </ul>
 
 
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Tuesday, 5 July 2016 at 08:25:14 PM</i>
+<i>This page was last updated on Tuesday, 5 July 2016 at 08:46:33 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
