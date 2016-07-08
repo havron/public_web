@@ -27,10 +27,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
      <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
+ <style>@-webkit-viewport{width:device-width}@-moz-viewport{width:device-width}@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}
+ body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

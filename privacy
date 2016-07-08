@@ -30,10 +30,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
     <link href="dist/css/bootstrap-theme.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <style>body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
+ <style>@-webkit-viewport{width:device-width}@-moz-viewport{width:device-width}@-ms-viewport{width:device-width}@-o-viewport{width:device-width}@viewport{width:device-width}
+ body{padding-top:70px;padding-bottom:30px}.theme-dropdown .dropdown-menu{position:static;display:block;margin-bottom:20px}.theme-showcase>p>.btn{margin:5px 0}.theme-showcase .navbar .container{width:auto}</style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
