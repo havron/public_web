@@ -76,12 +76,12 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <div class="container theme-showcase" role="main">
 <div class="page-header">
-     <h1>Courses</h1>
+     <h1>Courses @<span style="color:blue"> UVA</span></h1>
 <!-- width 3264  height 2448-->
 <!-- width 864  height 648-->
 
 </div>
-<a href="pavilionX/index.html" target="_blank"><img  align="center" width="60%" height="60%" src="imgopt/pl-outside.jpg"></a>
+<a href="pavilionX/index.html" target="_blank"><img style="max-width:50%;" src="imgopt/pl-outside.jpg"></a>
 <br>
 <br>
      <p>Descriptions for each course to be expanded. The following are a list of courses I have taken at the <a href="http://www.virginia.edu" target="_blank">University of Virginia</a> while pursuing a <a href="http://www.cs.virginia.edu/acad/bscs/" target="_blank">B.S. in Computer Science</a>, in reverse chronological order:</p>
@@ -184,17 +184,6 @@ different languages.</p>
             <a href="#" class="list-group-item">
               <h4 class="list-group-item-heading">Computer Architecture (CS 3330)</h4>
               <p class="list-group-item-text"><i>Instructed by Luther Tychonievich.</i> Includes the organization and architecture of computer systems hardware; instruction set architectures; addressing modes; register transfer notation; processor design and computer arithmetic; memory systems; hardware implementations of virtual memory, and input/output control and devices.</p>
-            </a>
-            <a href="#" class="list-group-item" >
-              <h4 class="list-group-item-heading">Compilers Practicum (CS 4501-005) <i>in Summer 2016</i></h4>
-              <p class="list-group-item-text"><i>Instructed by Kevin Leach and Westley Weimer.</i> At the end of this course, you will be acquainted
-with the fundamental concepts in code
-generation and optimization. In particular, you
-will understand the theory and practice of code
-generation, stack layouts, calling conventions,
-dynamic dispatch, control flow graphs, and
-dataflow analyses. An optimizing compiler for an Object Oriented programming language will be 
-written in native x86_64 assembly.</p>
             </a>
             <br>
             <a class="list-group-item active">

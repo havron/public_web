@@ -78,16 +78,13 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
     <div class="container theme-showcase" role="main">
 
-<div class="page-header">
- <h1>Teaching</h1>
-</div>
 
-<a href="pavilionX/index.html" target="_blank"><img style="max-width:50%" src="imgopt/pl-outside2.jpg"></a>
+<a href="pavilionX/index.html" target="_blank"><img style="max-width:40%" src="imgopt/pl-outside2.jpg"></a>
 <!-- 275 by 275 img -->
 &nbsp;
-<img src="imgopt/writing.jpg" height="38%" width="38%">
+<img src="imgopt/writing.jpg" height="30%" width="30%">
 <!-- <img style="float:right; margin: 0px 0px 5px 5px" src="images/writing.jpg" height="45%" width="45%"> -->
-<h2>Courses served as Teaching Assistant (TA)</h2>
+<h2>Teaching Assistant (TA)</h2>
 <p style="font-size:18px">
 As an undergraduate student, I have TA'd the following courses:
 <div style="font-size:18px">
