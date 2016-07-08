@@ -132,8 +132,7 @@ fill out <a href="http://goo.gl/forms/YrwfcdDMdTK4RifY2" target="_blank">this fo
 The blog's theme is based on <a href="https://bootswatch.com/" target="_blank">Bootswatch</a>.
 
 <h2 style="color:blue">Security <span class="glyphicon glyphicon-lock"></span></h2> 
-The site is static, which is a great start towards ensuring it is safe and secure for viewers to browse. As a quick <samp
-style="color:green">curl -I</samp> HTTP-header request can reveal, The site
+The site is static, which is a great start towards ensuring it is safe and secure for viewers to browse. As a quick <kbd>curl -I</kbd> HTTP-header request can reveal, The site
 relies on a 301 redirect from an initial HTTP request to HTTPS connection (which <a href="https://www.cs.columbia.edu/~angelos/Papers/2016/cookiejar.pdf" target="_blank">invites some flaws</a>),
 enforced by the Cloudfront distribution that serves the site's objects from an
 S3 bucket with match viewer protocol policy (so, Cloudfront will establish an
@@ -209,13 +208,16 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 <li>Customize the blog even more...mess with templating, themes, taxonomies! The current taxonomy system is fairly simple (categories, tags).</li>
 
 <li>Add RSS/Atom feeds to the blog and make them easily accessible. This shouldn't be very difficult, as Hugo can already do most of the heavy lifting. Consider other formats for distributing content.</li>
+
+<li>Recompile the blog's core css. Currently, a hackish <kbd>custom.css</kbd> file is used on top of <kbd>bootstrap.min.css</kbd>, and it's ugly and not elegant...</li>
+
 </ul>
 
 
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Tuesday, 5 July 2016 at 10:23:49 PM</i>
+<i>This page was last updated on Thursday, 7 July 2016 at 04:41:23 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
