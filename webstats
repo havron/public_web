@@ -60,8 +60,8 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
             <li><a href="research/index.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
             <li><a href="courses.html">Courses</a></li>
             <li><a href="fun/index.html">Fun</a></li>
             <li><a href="./blog/">Blog <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
@@ -198,13 +198,14 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 
 <li>Recompile the blog's core css. Currently, a hackish <kbd>custom.css</kbd> file is used on top of <kbd>bootstrap.min.css</kbd>, and it's ugly and not elegant...</li>
 
+<li>Update the main site to build with Hugo. Currently, manual editing with Vim is used...it's rather inefficient.</li>
 </ul>
 
 
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Friday, 8 July 2016 at 12:20:14 AM</i>
+<i>This page was last updated on Saturday, 9 July 2016 at 02:51:57 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
