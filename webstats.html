@@ -64,7 +64,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
             <li><a href="teaching.html">teaching</a></li>
             <li><a href="courses.html">courses</a></li>
             <li><a href="fun/index.html">fun</a></li>
-            <li><a href="./blog/"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> blog </a></li>
+            <li><a href="./blog/">blog </a></li>
             <li><a href="./search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
               </ul>
             
@@ -85,7 +85,7 @@ href="https://havron.xyz/about.html" target="_blank">myself</a>, and utilizes a
 number of recent web tools and standards to operate. The majority of my knowledge of
 web development is self-taught, though I am taking <a
 href="https://havron.xyz/courses.html#isa" target="_blank">a course on building
-scalable, industrial-grade 4-tier web applications</a> during fall 2016. I'm
+scalable, industrial-grade 4-tier web applications</a> during fall 2016. This page is really a not-so-cleverly-disguised wiki for the site, so you can rely on checking here every now-and-then to see what's currently happening behind-the-scenes. I'm
 always looking to improve the site or add new content! Feel free to contact me or submit a
 <a href="https://github.com/samuelhavron/public_web" target="_blank">pull
 request</a>. This page is a <a href="http://i.imgur.com/2jezk3M.jpg" target="_blank">minefield of links</a>...sorry :-)
@@ -103,7 +103,7 @@ Lastly, <a href="https://git-scm.com/" target="_blank">version control with git<
 <i id="reddit"></i>
 
 The blog is developed using <a href="https://gohugo.io/"
-target="_blank">Hugo</a> to generate static content (I write blog posts in Vim using <a href="https://github.com/russross/blackfriday" target="_blank">Blackfriday</a> <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> format, with my post rendered in real-time on <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">localhost</a> for development). 
+target="_blank">Hugo</a> to generate static content (I write blog posts in Vim using <a href="https://github.com/russross/blackfriday" target="_blank">Blackfriday</a> <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> format, and seeing my post rendered in real-time on <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">localhost</a> while writing by using <kbd>hugo server</kbd>). 
 It's currently housed in the <a href="./blog/" target="_blank">/blog subdirectory</a> of the site, but could migrate to its own subdomain or entirely separate domain if it regularly invites multiple contributors needing access to a shared environment for deployment (rather than sending me PRs and me manually calling an S3 bucket sync). Although this is a personal blog, I imagine the quality of the more technical posts I write could benefit from having relevant author/co-author(s) weigh in, making a better experience for the end-reader.
 <br> <br>
 The blog's commenting system is currently <a href="https://reddit.com/r/havronxyz/"
@@ -131,7 +131,7 @@ target="_blank">AWS Cloudfront</a>, both as of June 2016; the site's only
 cookies are for a Google Analytics script, which could potentially be poisoned
 by a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank">MITM (Man in the Middle)</a> attack during the initial HTTP request to the
 Cloudfront distribution. Also as a result of using Amazon Certificate Manager
-as a CA, <a href="https://en.wikipedia.org/wiki/Forward_secrecy" target="_blank">Perfect Forward Secrecy (PFS)</a> is not supported, which isn't much of a concern for a static site, but is still on my mind. 
+as a CA, <a href="https://en.wikipedia.org/wiki/Forward_secrecy" target="_blank">Perfect Forward Secrecy (PFS)</a> is not supported, which isn't much of a concern for a static site, but is still on my mind. An <kbd>iframe</kbd> is used to implement DuckDuckGo custom search for the site. This is a possible vulnerability if DDG becomes compromised.
 
 <h2 style="color:blue">Search Engine Optimization (SEO) <span class="glyphicon glyphicon-search"></span></h2>
 While I profess that <a href="https://en.wikipedia.org/wiki/Search_engine_optimization" target="_blank">SEO</a> is not at the top of my priority list for the site, 
@@ -201,7 +201,7 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Sunday,10 July 2016 at 07:35:34 PM</i>
+<i>This page was last updated on Sunday,10 July 2016 at 09:34:42 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript

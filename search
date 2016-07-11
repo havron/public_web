@@ -53,9 +53,9 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron col-lg-14">
-      <h1>Search the site <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+      <h1>havron.xyz <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
  </h1>
- <h4 style="color:green">Add <kbd>!g</kbd> to your search term get <b>better results</b> from Google (but have <a href="https://duckduckgo.com/privacy" target="_blank">less privacy</a>)</h4>
+ <h4 style="color:green">Add <kbd>!g</kbd> to your search term to get <b>better results</b> from Google (but have <a href="https://duckduckgo.com/privacy" target="_blank">less privacy</a>)</h4>
       <br>
 
 <!-- fix ifram responsive rendering on mobile devices. -->
