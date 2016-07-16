@@ -45,7 +45,7 @@ integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkz
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
-<p> By browsing this site, you agree to the terms of <a href="https://www.google.com/analytics/terms/us.html" target="_blank">Google Analytics</a> privacy policy. A mirror of the site which does not contain Google Analytics scripts is being considered upon popular demand; <a href="about.html">email me</a> if you would like to see this implemented. Alternatively, you may install <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">Google Analytics Opt-out browser add-on</a> from the company itself.
+<p> By browsing this site with JavaScript enabled, you agree to the terms of <a href="https://www.google.com/analytics/terms/us.html" target="_blank">Google Analytics</a> privacy policy. A mirror of the site which does not contain Google Analytics scripts is being considered upon popular demand; <a href="about.html">email me</a> if you would like to see this implemented. Alternatively, you may install <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">Google Analytics Opt-out browser add-on</a> from the company itself.
 </p>
 <p style="font-size:40px"><a href="https://havron.xyz"><i class="glyphicon glyphicon-home"></i>
 go back to home page</a></p>

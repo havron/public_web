@@ -99,8 +99,9 @@ the <a href="https://bootswatch.com/cyborg/" target="_blank">Cyborg theme on Boo
 Lastly, <a href="https://git-scm.com/" target="_blank">version control with git</a> is used and publicly available in a <a href="https://github.com/samuelhavron/public_web/" target="_blank">GitHub repository</a> (the site's S3 bucket is synchronized with the repository via a <a href="https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks" target="_blank">client-side hook</a>).
 
 
+<!-- anchor correctly! should put in custom.css -->
+<span target="" style="display: block;position: relative;top: -35px;" id="blog"></span>
 <h2 style="color:blue">Site blog <span class="glyphicon glyphicon-pencil"></span></h2> 
-<i id="reddit"></i>
 
 The blog is developed using <a href="https://gohugo.io/"
 target="_blank">Hugo</a> to generate static content (I write blog posts in Vim using <a href="https://github.com/russross/blackfriday" target="_blank">Blackfriday</a> <a href="https://daringfireball.net/projects/markdown/" target="_blank">Markdown</a> format, and seeing my post rendered in real-time on <a href="https://en.wikipedia.org/wiki/Localhost" target="_blank">localhost</a> while writing by using <kbd>hugo server</kbd>). 
@@ -197,11 +198,11 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 <li>Update the main site to build with Hugo (the blog already uses it). Currently, manual editing with Vim is used for the main site...a lot of the templating in it could be abstracted away with partials from Hugo, and other niceties.</li>
 </ul>
 
-
+<li>Take inspration from <a href="https://material.google.com/" target="_blank">Google's material design standards</a>. There is so very much to learn.</li>
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Sunday,10 July 2016 at 09:34:42 PM</i>
+<i>This page was last updated on Friday,15 July 2016 at 12:29:57 AM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
