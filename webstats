@@ -196,13 +196,15 @@ to embed reddit posts and templating by passing in the values to the <a href="ht
 <li>Recompile the blog's core css. Right now, a hackish <kbd>custom.min.css</kbd> file is used on top of <kbd>bootstrap.min.css</kbd> (I wrote a <kbd>custom.css</kbd> file and used <kbd>yui-compressor</kbd> to minify it).</li>
 
 <li>Update the main site to build with Hugo (the blog already uses it). Currently, manual editing with Vim is used for the main site...a lot of the templating in it could be abstracted away with partials from Hugo, and other niceties.</li>
+
+<li>Take inspration from <a href="https://material.google.com/" target="_blank">Google's material design standards</a>. There is so very much to learn!</li>
+
 </ul>
 
-<li>Take inspration from <a href="https://material.google.com/" target="_blank">Google's material design standards</a>. There is so very much to learn.</li>
 
 </p>
 <!-- magic, wow! what time is it, sed? :-) -->
-<i>This page was last updated on Friday,15 July 2016 at 12:29:57 AM</i>
+<i>This page was last updated on Sunday,17 July 2016 at 06:30:53 PM</i>
 <a href="./Makefile" target="_blank">.</a>
 </div>
     <!-- Bootstrap core JavaScript
